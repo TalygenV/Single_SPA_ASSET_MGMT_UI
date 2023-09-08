@@ -1,1 +1,0 @@
-import{_ as o,o as a,c as n,a as e,t as s}from"./index.39612647.js";const _={},l={class:"about"},c=e("h1",null,"This is an about page",-1),r=e("br",null,null,-1);function u(t,i){return a(),n("div",l,[c,e("p",null,s(t.$t("ACCOUNT_NAME")),1),r,e("p",null,s(t.$t("AccountAddress")),1)])}var p=o(_,[["render",u]]);export{p as default};
