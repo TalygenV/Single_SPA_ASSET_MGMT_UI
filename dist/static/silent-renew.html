@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Silent Renew Token</title>
+</head>
+<body>
+    <script src='oidc-client.min.js'></script>
+    <script>      
+        console.log('renewing tokens');
+        try {
+            new Oidc.UserManager({ userStore: new Oidc.WebStorageStateStore({ store: window.localStorage }) })
+                .signinSilentCallback();
+        }
+        catch {
+        }
+    </script>
+</body>
+</html>
